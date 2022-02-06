@@ -1,0 +1,22 @@
+import { navigation } from "./navigation.js";
+import { settings } from "./setting.js";
+import { lightMode } from "./lightMode.js";
+import { dateHome } from "./dateHome.js";
+import { products } from "./datas.js";
+import { buildProducts } from "./buildProducts.js";
+import { singleProduct } from "./singleProduct.js";
+import { modal } from "./modal.js";
+import { form } from "./form.js";
+import { pearBounce } from "./pearBounce.js";
+import { popup } from "./popup.js";
+
+navigation();
+settings();
+lightMode();
+dateHome();
+buildProducts(products);
+singleProduct(products);
+modal();
+form(products);
+pearBounce();
+popup();

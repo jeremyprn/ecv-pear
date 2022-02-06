@@ -1,0 +1,49 @@
+body.light {
+	.home {
+		background-color: #fff;
+
+		&__head {
+			color: #000;
+		}
+	}
+
+	.pear {
+		background-color: #fff;
+
+		&__heading {
+			color: #000;
+		}
+
+		&__description {
+			color: #000;
+		}
+	}
+
+	.store {
+		background-color: #fff;
+
+		&__heading {
+			color: #000;
+		}
+
+		&__product {
+			box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	.single {
+		background-color: #fff;
+
+		&__title-content,
+		&__product-title,
+		&__product-description {
+			color: #000;
+		}
+
+		&__product {
+			margin-top: 20px;
+			box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+			padding: 8em 4em;
+		}
+	}
+}
